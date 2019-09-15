@@ -1,0 +1,6 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+get_session_auth:
+  path: /session-auth
+  controller: App\Controller\OBHController::getAuthSessionAction

@@ -1,0 +1,34 @@
+App\Entity\Client:
+  type: entity
+
+  id:
+    idClient:
+      type: integer
+      id: true
+      generator:
+        strategy: AUTO
+      options:
+        unsigned: false
+
+  fields:
+    nume:
+      type: string
+      nullable: false
+    prenume:
+      type: string
+      nullable: false
+    cnp:
+      type: string
+      nullable: false
+    serie:
+      type: string
+      nullable: false
+    numarSerie:
+      type: string
+      nullable: false
+    tel:
+      type: string
+      nullable: false
+    email:
+      type: string
+      nullable: false
